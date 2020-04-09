@@ -16,6 +16,9 @@ form {
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 form input {
     width: 350px;
