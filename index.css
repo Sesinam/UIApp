@@ -31,7 +31,11 @@ form input {
     border-bottom-right-radius: 5px;
 
 }
-
+form input :focus {
+    width: 400px;
+    height: 60px;
+    border: 2px solid rgba(29, 74, 223, 0.767);
+}
 #period {
     width: 300px;
     height: 50px;
