@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 h1 {
@@ -42,7 +42,6 @@ form input {
     border-bottom-right-radius: 5px;
     margin-left: 40px;
     margin-right: 40px;
-    /* text-align: center; */
     padding-left: 100px;
     padding-right: 60px;
     font-size: 30px;
