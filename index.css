@@ -52,6 +52,7 @@ form input {
     margin-left: 90px;
     margin-right: 90px;
     color: rgb(11, 145, 207);
+    background-color: white;
 }
 
 #output {
