@@ -1,1 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assessment</title>
+    <link href="index.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h1>Single Page Web App</h1>
 
+    <div>
+        <form action="">
+            <input data-population="" type="number" placeholder="population of people" min="0" name="population"/>
+            <input data-time-to-elapse="" type="number" min="0" placeholder="period of time" name="timeToElapse">
+            <input data-reported-cases="" type="number" min="0" placeholder="reported cases" name="reportedCases"/>
+            <input data-total-hospital-beds="" type="number" min="0" placeholder="total hospital beds" name="totalHospitalBeds"/>
+            <select data-period-type="" name="periodType" size="1" id="period">
+                <option value="days">days</option>
+                <option value="weeks">weeks</option>
+                <option value="months">months</option>
+            </select>
+            <input data-go-estimate="" type="submit"  value="Feed Data" id="button"/>
+        </form>
+    </div>
+</body>
+</html>
