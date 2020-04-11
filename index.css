@@ -20,6 +20,9 @@ form {
     font-size: 20px;
     text-align: center;
 }
+form label{
+    display: none;
+}
 form input {
     width: 350px;
     display: block;
