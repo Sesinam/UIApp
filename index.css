@@ -13,8 +13,8 @@ h1 {
 }
 
 form {
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top: 100px;
     color: white;
     font-size: 20px;
@@ -62,9 +62,8 @@ form input :focus {
     margin-right: 90px;
     color: rgb(11, 145, 207);
     background-color: white;
-}
-
-#output {
-    color: white;
-    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
